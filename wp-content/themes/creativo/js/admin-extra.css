@@ -1,0 +1,183 @@
+#pyre_page_options h2,
+#pyre_post_options h2,
+#pyre_portfolio_options h2,
+#pyre_client_options h2,
+#pyre_testimonial_options h2,
+#pyre_product_options h2 {
+    line-height: 40px;
+    background: #2b3643;
+    margin-bottom: 0;
+    border-bottom: none;
+    font-size: 16px;
+    font-weight: normal;
+    color: #fff;
+    padding-left:25px;
+    margin-bottom:0;
+}
+#pyre_page_options .handlediv,
+#pyre_post_options .handlediv,
+#pyre_portfolio_options .handlediv,
+#pyre_client_options .handlediv,
+#pyre_testimonial_options .handlediv,
+#pyre_product_options .handlediv {
+    width:56px;
+    height:56px;
+    background-color: #32c5d2;
+    color: #ffffff;
+}
+
+.colorpicker {
+	display: none;
+}
+.creativo_customization {
+	background-color: #364150;
+    display: none;
+}
+.pyre_info, .pyre_warning {
+    padding: 20px;    
+    text-align:center;
+    font-size:14px;
+    color:#fff;
+}
+.pyre_info {
+    background-color: #2b7ce6;    
+}
+.pyre_warning {
+    background-color: #cf4944;    
+}
+.creativo_customization .cr_metabox .pyre_metabox_tab{
+	display: none;
+}
+
+div[id*="pyre_"] .inside {
+	padding:0 !important;
+	margin:0 !important;
+}
+
+.creativo_customization ul.cr_metabox_tabs {
+	margin: 0;
+	width:20%;
+	float: left;
+	position: relative;
+    z-index: 30;
+}
+.creativo_customization ul.cr_metabox_tabs li {
+	margin-bottom: 0;
+	padding-left:20px;
+	box-sizing: border-box;    
+    border-bottom: none;
+    border-left: 3px solid transparent;       
+    font-weight: normal;
+    line-height: 48px;
+}
+.creativo_customization ul.cr_metabox_tabs li:hover {
+	cursor: pointer;
+}
+.creativo_customization ul.cr_metabox_tabs li:first-child {
+    border-top: none;
+}
+.creativo_customization ul.cr_metabox_tabs li.active {
+    border-right: none;
+    border-left-color: #32c5d2;
+    background: #3e4b5c;
+}
+.creativo_customization ul.cr_metabox_tabs li a {
+	text-decoration: none;
+	color:#b4bcc8;
+    outline: none;
+    display: block;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    font-size:14px;
+}
+.creativo_customization .cr_metabox {
+	width: 80%;
+	float:right;
+	padding:20px;
+	box-sizing: border-box;
+	background:#ffffff;	
+    position: relative;    
+    z-index: 20;
+    min-height:400px;
+}
+.pyre_metabox .wp-color-result {
+    background-image: none !important;
+}
+
+.pyre_metabox_field {
+	padding: 25px 0;
+    border-bottom: 1px solid #f4f4f4;
+}
+.pyre_metabox_field:first-of-type {
+	padding-top: 0;
+}
+.pyre_metabox_field:last-of-type {
+	padding-bottom: 0;
+	border-bottom:none;
+}
+.pyre_metabox_field .desc_field {
+	width: 50%;
+    display: inline-block;
+    min-height:40px;    
+    box-sizing: border-box;
+    vertical-align: top;
+}
+.pyre_metabox_field .desc_field label {	
+	cursor: initial;
+    font-weight: 500;
+}
+.pyre_metabox_field .desc_field p {
+	margin-bottom:0;
+	margin-top:5px;
+	color:#777;
+	font-size:13px;
+}
+.pyre_metabox_field .field {
+    width: 45%;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-left:5%;
+}
+.pyre_metabox_field .field select,
+.pyre_metabox_field .field input[type=text] {
+    width: 100%;
+    padding-left: 10px;
+    height: 35px;
+    line-height: 35px;
+    font-size:13px;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border-color:#e5e5e5;
+}
+.pyre_metabox_field .field textarea {
+    max-width:100%;
+}
+.pyre_metabox_field .field .upload_field {
+	width: calc(100% - 82px) !important;
+}
+.pyre_metabox_field .field .upload_button,
+.pyre_metabox_field .field .cr_upload_button {
+	line-height: 35px;
+    height: 35px;
+    background: #222222;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    position: relative;
+    left: -1px;
+    cursor: pointer;
+    width: 80px;
+}
+
+.cr-preview-image {
+  max-width:100%;
+  height:auto;
+  outline:none;
+}
+.cr-preview-image[src="#"] {
+    display: none;
+}
+.cr-featured-image-meta-box .cr_upload_button {
+  display: block;
+}

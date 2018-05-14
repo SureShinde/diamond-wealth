@@ -1,0 +1,73 @@
+body,h1,h2,h3,h4,h5,h6 {
+  color: $body-font !important;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: bold !important;
+}
+
+body, p {
+  font-size: 16px !important;
+}
+
+.button,
+.reading-box.cta_box_1 .button,
+.extra_header_button a {
+  background-color: $red !important;
+  border-color: $red !important;
+  font-weight: 600 !important;
+}
+
+.vc_row a {
+ color: $blue !important;
+}
+
+a.button {
+  color: $white !important;
+}
+
+.reading-box.cta_box_1 h2 {
+  font-size: 30px !important;
+}
+
+/* REV SLIDER
+---------------------------------------------------------------------- */
+.entry-content .rev_slider a i, .rev_slider a i {
+  color: $white !important;
+  font-weight: bold !important;
+  text-decoration: underline;
+}
+
+/* Tables
+---------------------------------------------------------------------- */
+table {
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+
+  tr {
+
+    th {
+      background-color: #d7d7d7;
+      padding: 10px 0;
+      border: 1px solid #000;
+      border-left: none;
+      border-top: none;
+
+      &:first-child {
+        background-color: $red;
+        color: $white;
+      }
+
+    }
+
+    td {
+      border: 1px solid #000;
+      border-left: none;
+      border-top: none;
+      text-align: center;
+    }
+
+  }
+
+}

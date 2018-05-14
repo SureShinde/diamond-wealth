@@ -1,0 +1,51 @@
+/*
+Theme Name: Wealth Game Custom Theme. Modded Illdy Theme
+Author: Design lab
+Description: Simple investment website portfolio
+Version: 1.0
+Tags: blog, e-commerce, portfolio
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #193c66;
+    color: white;
+    font-size:1.25em;
+}
+
+.blog-post-button {
+    height: 45px;
+    line-height: 45px;
+    background-color: #4a6491;
+    padding: 0 30px;
+    display: inline-block;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffffff;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    text-transform: uppercase;
+}

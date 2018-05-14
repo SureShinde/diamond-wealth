@@ -1,0 +1,183 @@
+/* Main Nav
+---------------------------------------------------------------------- */
+#navigation > ul > li > a {
+  color: $white !important;
+  font-weight: 600 !important;
+
+  &:hover {
+    color: $red !important;
+  }
+
+}
+
+#branding {
+  padding: 4px 0 0 10px !important;
+}
+
+#branding .text a, .side_logo .text a {
+  color: $white !important;
+  text-transform: uppercase;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+}
+
+.additional_icons ul {
+  border: none !important;
+}
+
+.extra_header_button a {
+  color: $white !important;
+  margin-right: 0 !important;
+}
+
+/* Section
+---------------------------------------------------------------------- */
+.section-bg {
+  background-color: $yellow;
+  padding: 50px 0;
+}
+
+.callout {
+  background-color: $yellow;
+  margin: 50px 0;
+}
+
+/* Client tetsimonials
+---------------------------------------------------------------------- */
+.clients_carousel.design_modern {
+
+  .review {
+    color: $body-font !important;
+    padding: 0;
+    max-width: 640px;
+    margin: 0 auto;
+  }
+
+  .comment-author span {
+    color: $body-font !important;
+    font-size: 16px !important;
+    font-weight: bold !important;
+  }
+
+}
+
+.divider_solid {
+  border-color: #b7b7b7;
+}
+
+/* Recent Posts
+---------------------------------------------------------------------- */
+.recent_posts_container {
+  margin-top: 20px;
+}
+
+.recent_posts_container .blogpost .description {
+  background-color: $white !important;
+  padding: 10px 30px 20px !important;
+}
+
+.post_grid_category a {
+  color: $gold !important;
+  text-transform: uppercase !important;
+}
+
+.blogpost .date {
+  color: $body-font !important;
+  font-size: 16px !important;
+}
+
+.post_grid_desc {
+  border-bottom: 1px solid $border-color;
+  margin-bottom: 15px !important;
+}
+
+/* Footer
+---------------------------------------------------------------------- */
+.footer {
+  position: relative;
+  padding: 130px 0 40px 0 !important;
+
+  .inner {
+    border-top: 1px solid $border-color;
+    padding-top: 20px;
+  }
+
+  #footer-menu li a {
+    color: $body-font !important;
+    font-weight: 600 !important;
+  }
+
+  @media only screen
+  and (min-device-width: 768px) {
+
+    .footer_navigation,
+    .copyright {
+      position: absolute;
+      right: 0;
+    }
+
+    .footer_navigation {
+      top: 35px;
+    }
+
+    .copyright {
+      top: 70px;
+    }
+
+  }
+
+}
+
+/* Blog
+---------------------------------------------------------------------- */
+.blogpost {
+
+  .category_output {
+
+    i {
+      display: none;
+    }
+
+    a {
+      color: $gold !important;
+      font-size: 20px !important;
+    }
+
+  }
+
+}
+
+.post_meta_wrap {
+
+  .post_meta.lower {
+
+    li {
+      color: $body-font !important;
+      font-size: 14px !important;
+    }
+
+    li:first-child {
+      float: left;
+    }
+
+    li:last-child {
+      float: right;
+    }
+
+  }
+
+}
+
+.post_meta.default {
+  border-top: 1px solid $border-color;
+  border-bottom: none;
+  padding-top: 15px;
+  margin-top: 15px;
+}
+
+/* masthead
+---------------------------------------------------------------------- */
+.masthead {
+  height: 350px;
+  margin-bottom: 60px !important;
+}

@@ -1,0 +1,99 @@
+input[type=text], input[type=email], input[type=password], input[type=search], input[type=tel], textarea, input:focus, textarea:focus {
+  color: #666666 !important;
+}
+
+/* Newsltter footer
+---------------------------------------------------------------------- */
+.footer {
+
+  .newsletter-form {
+    max-width: 440px;
+  }
+
+  .gform_wrapper {
+
+    label {
+      display: none;
+    }
+
+    input {
+      margin: 0 !important;
+    }
+
+    input[type='text'] {
+      border-color: $red !important;
+    }
+
+    input[type='submit'] {
+      width: 100%;
+      text-align: center;
+
+      @media only screen
+      and (min-device-width: 768px) {
+
+        width: auto;
+
+      }
+
+    }
+
+    .gform_body {
+
+    }
+
+    .gform_footer {
+
+    }
+
+    @media only screen
+    and (min-device-width: 768px) {
+
+      .gform_body {
+        float: left;
+        width: 75%;
+      }
+
+      .gform_footer {
+        float: left;
+        width: calc(25% - 5px);
+        padding-left: 5px;
+      }
+
+    }
+
+  }
+
+}
+
+/* Comment Form
+---------------------------------------------------------------------- */
+form#commentform {
+
+  input, textarea {
+    border-color: $red !important;
+  }
+
+  label {
+    color: $border-color !important;
+  }
+
+}
+
+/* shared
+---------------------------------------------------------------------- */
+.validation_error {
+  padding: 15px;
+  color: $white;
+  background-color: $red;
+  margin-bottom: 15px;
+}
+
+.gfield_description {
+
+  &.validation_message {
+    color: $red;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+}

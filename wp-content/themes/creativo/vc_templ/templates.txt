@@ -1,0 +1,177 @@
+
+$data = array();
+$data['name'] = __( 'Hero Image + Text 3', 'js_composer' );
+$data['cat_display_name'] = $cat_display_names['testimonials'];
+$data['custom_class'] = 'hero main';
+$data['weight']     = 3; // Weight of your template in the template list
+$data['image_path'] = preg_replace( '/\s/', '%20', get_template_directory_uri() .'/vc_templ/img/heading_text_3.jpg' ); 
+$data['content'] = <<<CONTENT
+[vc_row eq_height="yes" content_placement="middle" css=".vc_custom_1498214392989{padding-top: 15% !important;padding-bottom: 15% !important;background: #fafafa url(http://localhost/cr2/wp-content/uploads/2017/06/design-process.jpg?id=3565) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}"][vc_column][vc_custom_heading text="Simplify your creation process
+with the Creativo Theme" font_container="tag:h2|font_size:40px|text_align:center|color:%23ffffff|line_height:1.3" use_theme_fonts="yes" el_class="font_weight_300" css=".vc_custom_1498142547908{padding-bottom: 20px !important;}"][vc_custom_heading text="Create pixel perfect websites with the best functionality
+and technologies on the web.
+
+" font_container="tag:p|font_size:17px|text_align:center|color:%23d6d6d6" use_theme_fonts="yes" css=".vc_custom_1498142564661{padding-bottom: 20px !important;}"][vc_button title="Download your Creativo Theme" target="_blank" shape="rounded" color="custom" custom_font_size="12px" custom_font_weight="600" custom_color="#4a90e2" custom_border_color="#4a90e2" custom_color_hover="#4565d1" custom_border_color_hover="#4565d1" href="https://www.mojomarketplace.com/item/creativo-5-0-ultra-responsive-multipurpose-wp-theme"][/vc_column][/vc_row]
+CONTENT;
+
+vc_add_default_templates( $data );
+
+$data = array();
+$data['name'] = __( 'Icon Box 1', 'js_composer' );
+$data['cat_display_name'] = $cat_display_names['testimonials'];
+$data['custom_class'] = 'main icon_image_box';
+$data['weight']     = 4; // Weight of your template in the template list
+$data['image_path'] = preg_replace( '/\s/', '%20', get_template_directory_uri() .'/vc_templ/img/icon_box_1.jpg' ); 
+$data['content'] = <<<CONTENT
+[vc_row css=".vc_custom_1498137492460{padding-top: 10% !important;}"][vc_column width="1/2" css=".vc_custom_1498136531704{padding-right: 30px !important;padding-left: 30px !important;border-radius: 4px !important;}"][vc_row_inner css=".vc_custom_1498138215753{border-top-width: 1px !important;border-right-width: 1px !important;border-bottom-width: 5px !important;border-left-width: 1px !important;padding-top: 40px !important;padding-right: 20px !important;padding-bottom: 20px !important;padding-left: 20px !important;border-left-color: #ededed !important;border-left-style: solid !important;border-right-color: #ededed !important;border-right-style: solid !important;border-top-color: #ededed !important;border-top-style: solid !important;border-bottom-color: #ededed !important;border-bottom-style: solid !important;border-radius: 5px !important;}"][vc_column_inner][vc_product_feature title="Most Customizable Theme" font_size="15" font_weight="600" bottom_margin="10px" title_color="#444444" icon_fontawesome="fa fa-envira" icon_color="#2b2b2b" icon_size="custom" desc_font_size="14px" desc_line_height="26px" desc_color="#3f3f3f" custom_icon_value="40"]Creativo provides all the options needed to customize absolutely every aspect of your site: fonts, images, sliders, colors, everything can be changed.[/vc_product_feature][/vc_column_inner][/vc_row_inner][/vc_column][vc_column width="1/2" css=".vc_custom_1498136862829{padding-right: 30px !important;padding-left: 30px !important;}"][vc_row_inner css=".vc_custom_1498138228075{border-top-width: 1px !important;border-right-width: 1px !important;border-bottom-width: 5px !important;border-left-width: 1px !important;padding-top: 40px !important;padding-right: 20px !important;padding-bottom: 20px !important;padding-left: 20px !important;border-left-color: #ededed !important;border-left-style: solid !important;border-right-color: #ededed !important;border-right-style: solid !important;border-top-color: #ededed !important;border-top-style: solid !important;border-bottom-color: #ededed !important;border-bottom-style: solid !important;border-radius: 5px !important;}"][vc_column_inner][vc_product_feature title="Used by 11,000+ Clients" font_size="15" font_weight="600" bottom_margin="10px" title_color="#444444" icon_type="entypo" icon_color="#2b2b2b" icon_size="custom" desc_font_size="14px" desc_line_height="26px" desc_color="#3f3f3f" custom_icon_value="40" icon_entypo="entypo-icon entypo-icon-users"]Used and loved by over 11,000+ satisfied customers, Creativo is the best solution for creating websites and blogs without coding anything.[/vc_product_feature][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row css=".vc_custom_1498137823380{padding-top: 40px !important;padding-bottom: 10% !important;}"][vc_column width="1/2" css=".vc_custom_1498136531704{padding-right: 30px !important;padding-left: 30px !important;border-radius: 4px !important;}"][vc_row_inner css=".vc_custom_1498138238516{border-top-width: 1px !important;border-right-width: 1px !important;border-bottom-width: 5px !important;border-left-width: 1px !important;padding-top: 40px !important;padding-right: 20px !important;padding-bottom: 20px !important;padding-left: 20px !important;border-left-color: #ededed !important;border-left-style: solid !important;border-right-color: #ededed !important;border-right-style: solid !important;border-top-color: #ededed !important;border-top-style: solid !important;border-bottom-color: #ededed !important;border-bottom-style: solid !important;border-radius: 5px !important;}"][vc_column_inner][vc_product_feature title="Visual Composer Included" font_size="15" font_weight="600" bottom_margin="10px" title_color="#444444" icon_type="openiconic" icon_color="#2b2b2b" icon_size="custom" desc_font_size="14px" desc_line_height="26px" desc_color="#3f3f3f" custom_icon_value="40" icon_openiconic="vc-oi vc-oi-layers"]Create your pages using the Visual Composer elements - more than 100 elements are at your disposal to create the perfect page layout.[/vc_product_feature][/vc_column_inner][/vc_row_inner][/vc_column][vc_column width="1/2" css=".vc_custom_1498136862829{padding-right: 30px !important;padding-left: 30px !important;}"][vc_row_inner css=".vc_custom_1498138248054{border-top-width: 1px !important;border-right-width: 1px !important;border-bottom-width: 5px !important;border-left-width: 1px !important;padding-top: 40px !important;padding-right: 20px !important;padding-bottom: 20px !important;padding-left: 20px !important;border-left-color: #ededed !important;border-left-style: solid !important;border-right-color: #ededed !important;border-right-style: solid !important;border-top-color: #ededed !important;border-top-style: solid !important;border-bottom-color: #ededed !important;border-bottom-style: solid !important;border-radius: 5px !important;}"][vc_column_inner][vc_product_feature title="Lifetime Support" font_weight="600" bottom_margin="10px" title_color="#444444" icon_type="entypo" icon_color="#2b2b2b" icon_size="custom" desc_font_size="14px" desc_line_height="26px" desc_color="#3f3f3f" custom_icon_value="40" icon_entypo="entypo-icon entypo-icon-lifebuoy"]Purchasing Creativo gives you access to our support platform for life. We provide support on forum, chat or directly on email, for FREE.[/vc_product_feature][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row]
+CONTENT;
+
+vc_add_default_templates( $data );
+
+$data = array();
+$data['name'] = __( 'Text +Image +Text', 'js_composer' );
+$data['cat_display_name'] = 'about';
+$data['custom_class'] = 'main';
+$data['weight']     = 5; // Weight of your template in the template list
+$data['image_path'] = preg_replace( '/\s/', '%20', get_template_directory_uri() .'/vc_templ/img/text_image_text.jpg' ); 
+$data['content'] = <<<CONTENT
+[vc_row eq_height="yes" content_placement="middle" css=".vc_custom_1498139375313{border-top-width: 1px !important;padding-top: 10% !important;padding-bottom: 10% !important;background-color: #fafafa !important;border-top-color: #ededed !important;border-top-style: solid !important;}"][vc_column width="1/4"][vc_custom_heading text="Inspiration Process" font_container="tag:h2|font_size:30px|text_align:left|color:%23252525|line_height:1.3" use_theme_fonts="yes" el_class="font_weight_300" css=".vc_custom_1498139162380{padding-bottom: 20px !important;}"][vc_column_text 0=""]Creativo was created with the user needs in mind - starting users will have no difficulties into create beautiful websites without writing a single line of code.
+
+From Design to Development, everything is done with simple mouse clicks.[/vc_column_text][/vc_column][vc_column width="1/2"][vc_single_image img_size="full" style="vc_box_border" border_color="white" css=".vc_custom_1498142123962{padding-top: 30px !important;padding-right: 10% !important;padding-bottom: 30px !important;padding-left: 10% !important;}"][/vc_column][vc_column width="1/4"][vc_custom_heading text="Flawless Design" font_container="tag:h2|font_size:30px|text_align:left|color:%23252525|line_height:1.3" use_theme_fonts="yes" el_class="font_weight_300" css=".vc_custom_1498139469685{padding-bottom: 20px !important;}"][vc_column_text 0=""]Creativo was created with the user needs in mind - starting users will have no difficulties into create beautiful websites without writing a single line of code.
+
+From Design to Development, everything is done with simple mouse clicks.[/vc_column_text][/vc_column][/vc_row]
+CONTENT;
+
+vc_add_default_templates( $data );
+
+$data = array();
+$data['name'] = __( 'Heading Images +Text', 'js_composer' );
+$data['cat_display_name'] = 'icon_image_box';
+$data['weight']     = 6; // Weight of your template in the template list
+$data['custom_class'] = 'main icon_image_box';
+$data['image_path'] = preg_replace( '/\s/', '%20', get_template_directory_uri() .'/vc_templ/img/heading_images_text.jpg' ); 
+$data['content'] = <<<CONTENT
+[vc_row css=".vc_custom_1498143088410{padding-top: 10% !important;padding-bottom: 10% !important;}"][vc_column width="1/3"][vc_single_image img_size="full" style="vc_box_rounded" css=".vc_custom_1498144319298{padding-right: 10px !important;padding-bottom: 30px !important;padding-left: 10px !important;}"][vc_custom_heading text="Infinite Posibilites" font_container="tag:h2|font_size:16px|text_align:center|color:%231c1c1c|line_height:1.3" use_theme_fonts="yes" el_class="font_weight_600" css=".vc_custom_1498144266981{padding-bottom: 10px !important;}"][vc_column_text 0=""]
+<p style="text-align: center;"><span style="color: #969696;">Creativo was created with the user needs in mind, from Design to Development, everything is done with simple mouse clicks.</span></p>
+[/vc_column_text][vc_button title="Learn more" color="custom" custom_font_size="11px" custom_text_color="#4a90e2" custom_color="rgba(255,255,255,0.01)" custom_border_color="rgba(91,201,140,0.01)" custom_text_color_hover="#494949" custom_color_hover="rgba(255,255,255,0.01)" custom_border_color_hover="rgba(255,255,255,0.01)" href="#"][/vc_column][vc_column width="1/3"][vc_single_image img_size="full" style="vc_box_rounded" css=".vc_custom_1498144408773{padding-right: 10px !important;padding-bottom: 30px !important;padding-left: 10px !important;}"][vc_custom_heading text="No Coding Needed" font_container="tag:h2|font_size:16px|text_align:center|color:%231c1c1c|line_height:1.3" use_theme_fonts="yes" el_class="font_weight_600" css=".vc_custom_1498144424959{padding-bottom: 10px !important;}"][vc_column_text 0=""]
+<p style="text-align: center;"><span style="color: #969696;">Creativo was created with the user needs in mind, from Design to Development, everything is done with simple mouse clicks.</span></p>
+[/vc_column_text][vc_button title="Learn more" color="custom" custom_font_size="11px" custom_text_color="#4a90e2" custom_color="rgba(255,255,255,0.01)" custom_border_color="rgba(91,201,140,0.01)" custom_text_color_hover="#494949" custom_color_hover="rgba(255,255,255,0.01)" custom_border_color_hover="rgba(255,255,255,0.01)" href="#"][/vc_column][vc_column width="1/3"][vc_single_image img_size="full" style="vc_box_rounded" css=".vc_custom_1498144455275{padding-right: 10px !important;padding-bottom: 30px !important;padding-left: 10px !important;}"][vc_custom_heading text="Dream &amp; Create" font_container="tag:h2|font_size:16px|text_align:center|color:%231c1c1c|line_height:1.3" use_theme_fonts="yes" el_class="font_weight_600" css=".vc_custom_1498144483781{padding-bottom: 10px !important;}"][vc_column_text 0=""]
+<p style="text-align: center;"><span style="color: #969696;">Creativo was created with the user needs in mind, from Design to Development, everything is done with simple mouse clicks.</span></p>
+[/vc_column_text][vc_button title="Learn more" color="custom" custom_font_size="11px" custom_text_color="#4a90e2" custom_color="rgba(255,255,255,0.01)" custom_border_color="rgba(91,201,140,0.01)" custom_text_color_hover="#494949" custom_color_hover="rgba(255,255,255,0.01)" custom_border_color_hover="rgba(255,255,255,0.01)" href="#"][/vc_column][/vc_row]
+CONTENT;
+
+vc_add_default_templates( $data );
+
+$data = array();
+$data['name'] = __( 'Testimonials + Clients', 'js_composer' );
+$data['weight']     = 7; // Weight of your template in the template list
+$data['cat_display_name'] = $cat_display_names['testimonials'];
+$data['custom_class'] = 'main testimonials';
+$data['image_path'] = preg_replace( '/\s/', '%20', get_template_directory_uri() .'/vc_templ/img/testimonials_clients.jpg' ); 
+$data['content'] = <<<CONTENT
+[vc_row css=".vc_custom_1498140636163{padding-top: 10% !important;padding-bottom: 10% !important;}"][vc_column 0=""][vc_custom_heading text="Simplify your creation process with the Creativo Theme" font_container="tag:h2|font_size:30px|text_align:center|color:%23252525|line_height:1.3" use_theme_fonts="yes" el_class="font_weight_300" css=".vc_custom_1498141436974{padding-bottom: 20px !important;}"][vc_custom_heading text="Create pixel perfect websites with the best functionality and technologies on the web." font_container="tag:p|font_size:17px|text_align:center|color:%23919191" use_theme_fonts="yes" css=".vc_custom_1498141452205{padding-bottom: 20px !important;}"][vc_row_inner css=".vc_custom_1498141426511{padding-top: 40px !important;}"][vc_column_inner width="1/2"][vc_testimonials test_design="modern" test_style="left" test_images="no" navigation="no" navigation_type="lines" style="custom" custom_color="#636363" testimonial_author="#a0a0a0" testimonial_link="#a0a0a0" author_font_size="12" font_weight="400" author_font_weight="600" include=""][/vc_column_inner][vc_column_inner width="1/2"][vc_carousel2 img_size="" visible_items="3" navigation="no"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row]
+CONTENT;
+
+vc_add_default_templates( $data );
+
+$data = array();
+$data['name'] = __( 'Icon Box with Title', 'js_composer' );
+$data['cat_display_name'] = $cat_display_names['icons'];
+$data['custom_class'] = 'main icon_image_box';
+$data['weight']     = 8; // Weight of your template in the template list
+$data['image_path'] = preg_replace( '/\s/', '%20', get_template_directory_uri() .'/vc_templ/img/icon_box_2.jpg' ); 
+$data['content'] = <<<CONTENT
+[vc_row css=".vc_custom_1498145103378{border-top-width: 1px !important;padding-top: 10% !important;background-color: #fafafa !important;border-top-color: #ededed !important;border-top-style: solid !important;}"][vc_column 0=""][vc_custom_heading text="Easy to Use by <strong>Beginners &amp; Advanced</strong> Users
+" font_container="tag:h2|font_size:30px|text_align:center|color:%23353535|line_height:1.3" use_theme_fonts="yes" el_class="font_weight_300" css=".vc_custom_1498145446362{padding-bottom: 10px !important;}"][vc_custom_heading text="Create pixel perfect websites with the best functionality
+and technologies on the web." font_container="tag:p|font_size:17px|text_align:center|color:%23474747" use_theme_fonts="yes" css=".vc_custom_1498144754059{padding-bottom: 20px !important;}"][/vc_column][/vc_row][vc_row css=".vc_custom_1498146384503{border-bottom-width: 1px !important;padding-top: 3% !important;padding-bottom: 10% !important;background-color: #fafafa !important;border-bottom-color: #ededed !important;border-bottom-style: solid !important;}"][vc_column width="1/4" css=".vc_custom_1498136531704{padding-right: 30px !important;padding-left: 30px !important;border-radius: 4px !important;}"][vc_row_inner css=".vc_custom_1498144988439{border-top-width: 1px !important;border-right-width: 1px !important;border-bottom-width: 5px !important;border-left-width: 1px !important;padding-top: 40px !important;padding-right: 20px !important;padding-bottom: 20px !important;padding-left: 20px !important;background-color: #ffffff !important;border-left-color: #ededed !important;border-left-style: solid !important;border-right-color: #ededed !important;border-right-style: solid !important;border-top-color: #ededed !important;border-top-style: solid !important;border-bottom-color: #ededed !important;border-bottom-style: solid !important;border-radius: 5px !important;}"][vc_column_inner 0=""][vc_product_feature title="Customize with Ease" font_size="18" font_weight="600" bottom_margin="20px" top_margin="30px" title_color="#444444" pf_pos="center" icon_fontawesome="fa fa-envira" icon_color="#2b2b2b" icon_size="custom" desc_font_size="14px" desc_line_height="26px" desc_color="#3f3f3f" custom_icon_value="40"]Creativo provides all the options needed to customize absolutely every aspect of your site.[/vc_product_feature][/vc_column_inner][/vc_row_inner][/vc_column][vc_column width="1/2" css=".vc_custom_1498136862829{padding-right: 30px !important;padding-left: 30px !important;}"][vc_row_inner css=".vc_custom_1498145000121{border-top-width: 1px !important;border-right-width: 1px !important;border-bottom-width: 5px !important;border-left-width: 1px !important;padding-top: 40px !important;padding-right: 20px !important;padding-bottom: 20px !important;padding-left: 20px !important;background-color: #ffffff !important;border-left-color: #ededed !important;border-left-style: solid !important;border-right-color: #ededed !important;border-right-style: solid !important;border-top-color: #ededed !important;border-top-style: solid !important;border-bottom-color: #ededed !important;border-bottom-style: solid !important;border-radius: 5px !important;}"][vc_column_inner 0=""][vc_product_feature title="Used by 11,000+ Clients" font_size="18" font_weight="600" bottom_margin="20px" top_margin="30px" title_color="#444444" pf_pos="center" icon_type="entypo" icon_color="#2b2b2b" icon_size="custom" desc_font_size="14px" desc_line_height="26px" desc_color="#3f3f3f" custom_icon_value="40" icon_entypo="entypo-icon entypo-icon-users"]Used and loved by over 11,000+ satisfied customers, Creativo is the best solution for creating websites and blogs without coding anything. Featured on all major design websites, Creativo is The Ultimate WordPress Theme you must purchase.[/vc_product_feature][/vc_column_inner][/vc_row_inner][/vc_column][vc_column width="1/4"][vc_row_inner css=".vc_custom_1498145000121{border-top-width: 1px !important;border-right-width: 1px !important;border-bottom-width: 5px !important;border-left-width: 1px !important;padding-top: 40px !important;padding-right: 20px !important;padding-bottom: 20px !important;padding-left: 20px !important;background-color: #ffffff !important;border-left-color: #ededed !important;border-left-style: solid !important;border-right-color: #ededed !important;border-right-style: solid !important;border-top-color: #ededed !important;border-top-style: solid !important;border-bottom-color: #ededed !important;border-bottom-style: solid !important;border-radius: 5px !important;}"][vc_column_inner 0=""][vc_product_feature title="Visual Composer Included" font_size="18" font_weight="600" bottom_margin="20px" top_margin="30px" title_color="#444444" pf_pos="center" icon_type="openiconic" icon_color="#2b2b2b" icon_size="custom" desc_font_size="14px" desc_line_height="26px" desc_color="#3f3f3f" custom_icon_value="40" icon_openiconic="vc-oi vc-oi-layers"]Create your pages using the Visual Composer elements – more than 100 elements are at your disposal to create the perfect page layout.[/vc_product_feature][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row]
+CONTENT;
+
+vc_add_default_templates( $data );
+
+$data = array();
+$data['name'] = __( 'Clients + Heading', 'js_composer' );
+$data['cat_display_name'] = $cat_display_names['clients'];
+$data['custom_class'] = 'main clients';
+$data['weight']     = 9; // Weight of your template in the template list
+$data['image_path'] = preg_replace( '/\s/', '%20', get_template_directory_uri() .'/vc_templ/img/clients_1.jpg' ); 
+$data['content'] = <<<CONTENT
+[vc_row css=".vc_custom_1498145505679{padding-top: 10% !important;padding-bottom: 10% !important;}"][vc_column 0=""][vc_custom_heading text="Our Satisfied Customers
+" font_container="tag:h2|font_size:30px|text_align:center|color:%23353535|line_height:1.3" use_theme_fonts="yes" el_class="font_weight_300" css=".vc_custom_1498145622750{padding-bottom: 40px !important;}"][vc_carousel2 images="2847,2848,2849,2850,2851,2854,2855" img_size="full" visible_items="5"][/vc_column][/vc_row]
+CONTENT;
+
+vc_add_default_templates( $data );
+
+$data = array();
+$data['name'] = __( '3 Flip Boxes', 'js_composer' );
+$data['cat_display_name'] = $cat_display_names['flip_boxes'];
+$data['custom_class'] = 'main flip_boxes';
+$data['weight']     = 9; // Weight of your template in the template list
+$data['image_path'] = preg_replace( '/\s/', '%20', get_template_directory_uri() .'/vc_templ/img/flip_boxes_1.jpg' ); 
+$data['content'] = <<<CONTENT
+[vc_row css=".vc_custom_1498215381951{padding-top: 10% !important;padding-bottom: 10% !important;}" section_id="features"][vc_column width="1/3"][flip_box front_head_size="20px" front_text="Creativo will look amazing on all mobile devices -both Android and iOS." front_text_size="14px" back_text="Drag and Drop to create the ultimate WordPress site. No coding needed." front_border_color="#f2f2f2" icon_type="fontawesome" icon_fontawesome="fa fa-tablet" icon_back="no" front_head="Ultra Responsive" front_bg_color="#fafafa" front_icon_color="#4a90e2" back_head="Mobile Ready" back_bg_color="#4a90e2" back_head_color="#ffffff" back_text_color="#f2f2f2" back_border_color="#4a90e2"][/vc_column][vc_column width="1/3"][flip_box direction="vert" front_head_size="20px" front_text="Creativo allows to set up Parallax Backgrounds with just one click." front_text_size="14px" back_text="Drag and Drop to create the ultimate WordPress site. No coding needed." front_border_color="#f2f2f2" icon_type="fontawesome" icon_fontawesome="fa fa-hand-pointer-o" icon_back="no" front_head="Parallax Backgrounds" front_bg_color="#fafafa" front_icon_color="#4a90e2" back_head="Easy Parallax" back_bg_color="#4a90e2" back_head_color="#ffffff" back_text_color="#f2f2f2" back_border_color="#4a90e2"][/vc_column][vc_column width="1/3"][flip_box front_head_size="20px" front_text="Create amazing websites with the Visual Composer page builder." front_text_size="14px" back_text="Drag and Drop to create the ultimate WordPress site. No coding needed." front_border_color="#f2f2f2" icon_type="fontawesome" icon_fontawesome="fa fa-stack-overflow" icon_back="no" front_head="Drag and Drop" front_bg_color="#fafafa" front_icon_color="#4a90e2" back_head="Visual Composer " back_bg_color="#4a90e2" back_head_color="#ffffff" back_text_color="#f2f2f2" back_border_color="#4a90e2"][/vc_column][/vc_row]
+CONTENT;
+
+vc_add_default_templates( $data );
+
+$data = array();
+$data['name'] = __( 'Hero Image +Text 4', 'js_composer' );
+$data['cat_display_name'] = $cat_display_names['hero'];
+$data['custom_class'] = 'main hero';
+$data['weight']     = 9; // Weight of your template in the template list
+$data['image_path'] = preg_replace( '/\s/', '%20', get_template_directory_uri() .'/vc_templ/img/heading_text_4.jpg' ); 
+$data['content'] = <<<CONTENT
+[vc_row eq_height="yes" content_placement="middle" css=".vc_custom_1498219843013{padding-top: 20% !important;padding-bottom: 15% !important;background: #fafafa url(https://rockythemes.com/creativo/wp-content/uploads/2017/06/home-page-4.jpg?id=3601) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}"][vc_column][vc_custom_heading text="Simplify your creation process
+with the Creativo Theme" font_container="tag:h2|font_size:40px|text_align:center|color:%23ffffff|line_height:1.3" use_theme_fonts="yes" el_class="font_weight_300" css=".vc_custom_1498215718481{padding-bottom: 20px !important;}"][vc_custom_heading text="Create pixel perfect websites with the best functionality
+and technologies on the web." font_container="tag:p|font_size:17px|text_align:center|color:%23d6d6d6" use_theme_fonts="yes" css=".vc_custom_1498215736668{padding-bottom: 20px !important;}"][vc_button title="Download your Creativo Theme" target="_blank" shape="rounded" color="custom" custom_font_size="12px" custom_font_weight="600" custom_color="#4a90e2" custom_border_color="#4a90e2" custom_color_hover="#4565d1" custom_border_color_hover="#4565d1" href="https://www.mojomarketplace.com/item/creativo-5-0-ultra-responsive-multipurpose-wp-theme"][/vc_column][/vc_row]
+CONTENT;
+
+vc_add_default_templates( $data );
+
+$data = array();
+$data['name'] = __( 'Image +Text', 'js_composer' );
+$data['cat_display_name'] = $cat_display_names['hero'];
+$data['custom_class'] = 'main images_gallery';
+$data['weight']     = 9; // Weight of your template in the template list
+$data['image_path'] = preg_replace( '/\s/', '%20', get_template_directory_uri() .'/vc_templ/img/image_text.jpg' ); 
+$data['content'] = <<<CONTENT
+[vc_row eq_height="yes" content_placement="middle" css=".vc_custom_1498219792424{padding-bottom: 10% !important;}"][vc_column width="1/2"][vc_single_image image="3554" img_size="full" alignment="center" style="vc_box_border" css=".vc_custom_1498219880102{padding-top: 30px !important;padding-bottom: 30px !important;}"][/vc_column][vc_column width="1/2"][vc_custom_heading text="<strong>Flawless</strong> Design" font_container="tag:h2|font_size:30px|text_align:left|color:%23252525|line_height:1.3" use_theme_fonts="yes" el_class="font_weight_300" css=".vc_custom_1498139469685{padding-bottom: 20px !important;}"][vc_column_text]Creativo was created with the user needs in mind - starting users will have no difficulties into create beautiful websites without writing a single line of code.
+
+From Design to Development, everything is done with simple mouse clicks - it's no wonder Creativo is being used by over 11,000+ satisfied cusomers.[/vc_column_text][/vc_column][/vc_row]
+CONTENT;
+
+vc_add_default_templates( $data );
+
+$data = array();
+$data['name'] = __( 'Tabs +FAQs', 'js_composer' );
+$data['cat_display_name'] = $cat_display_names['hero'];
+$data['custom_class'] = 'main tabs faqs';
+$data['weight']     = 9; // Weight of your template in the template list
+$data['image_path'] = preg_replace( '/\s/', '%20', get_template_directory_uri() .'/vc_templ/img/tabs_faqs.jpg' ); 
+$data['content'] = <<<CONTENT
+[vc_row css=".vc_custom_1498220048684{border-top-width: 1px !important;border-bottom-width: 1px !important;background-color: #fafafa !important;border-top-color: #ededed !important;border-top-style: solid !important;border-bottom-color: #ededed !important;border-bottom-style: solid !important;}"][vc_column width="2/3"][vc_tabs color="custom" tt_font_size="16px" tt_font_weight="400" tc_font_size="14px" tc_line_heigt="26px" style="style_5"][vc_tab title="Web Design" tab_id="c043b05d-7783-10"][vc_column_text 0=""]The new common language will be more simple and regular than the existing European languages. It will be as simple as Occidental; in fact, it will be Occidental. To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is. The European languages are members of the same family.
+
+Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators.[/vc_column_text][/vc_tab][vc_tab title="Development" tab_id="331c1658-7dfd-2"][vc_column_text 0=""]The new common language will be more simple and regular than the existing European languages. It will be as simple as Occidental; in fact, it will be Occidental. To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is. The European languages are members of the same family.
+
+Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators.[/vc_column_text][/vc_tab][vc_tab title="Advertising" tab_id="1498216238106-2-8"][vc_column_text 0=""]The new common language will be more simple and regular than the existing European languages. It will be as simple as Occidental; in fact, it will be Occidental. To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is. The European languages are members of the same family.
+
+Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators.[/vc_column_text][/vc_tab][vc_tab title="Support" tab_id="1498216750872-3-2"][vc_column_text 0=""]
+
+The new common language will be more simple and regular than the existing European languages. It will be as simple as Occidental; in fact, it will be Occidental. To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is. The European languages are members of the same family.
+
+Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators.
+
+[/vc_column_text][/vc_tab][/vc_tabs][/vc_column][vc_column width="1/3" css=".vc_custom_1498220124524{padding-top: 30px !important;padding-left: 10% !important;}"][vc_toggle title="How to purchase Creativo " size="sm" el_id="1498217103734-73a0088b-c772"]Creativo can be purchased on the MojoMarketplace website only. The them costs only $59, one time fee only.[/vc_toggle][vc_toggle title="How can I receive support?" size="sm" el_id="1498217332639-c728ed2a-94be"]Support is provided by us RockyThemes via Chat, Forum or directly by email. Head to the Contact area to get in touch with us.[/vc_toggle][vc_toggle title="Can the theme be customized?" size="sm" el_id="1498217330304-4e9effb8-246b"]Yes, Creativo allows you to change every single pixel on your site. Everything is done with simple mouse clicks.[/vc_toggle][vc_toggle title="Can I change the Logo?" size="sm" el_id="1498217393338-92a97085-e667"]The logo can be changed by going to Appearance -> Theme Options -> Logo favicon.[/vc_toggle][vc_toggle title="How can I update Creativo?" size="sm" el_id="1498217503468-de7b6d8e-883b"]The theme can be updated with just one click by going to Appearance -> Themes page. Click once and the theme will be automatically updated.[/vc_toggle][/vc_column][/vc_row]
+CONTENT;
+
+vc_add_default_templates( $data );
+
+$data = array();
+$data['name'] = __( 'Posts Grid 1', 'js_composer' );
+$data['cat_display_name'] = $cat_display_names['posts_grid'];
+$data['custom_class'] = 'main posts_grid';
+$data['weight']     = 9; // Weight of your template in the template list
+$data['image_path'] = preg_replace( '/\s/', '%20', get_template_directory_uri() .'/vc_templ/img/posts_grid.jpg' ); 
+$data['content'] = <<<CONTENT
+[vc_row css=".vc_custom_1498220028623{padding-top: 10% !important;}"][vc_column][recent_posts columns="4" show_date="no" taxonomies="" include="" style="custom" content_padding="0" post_title_font_size="16px" font_weight="400" category_color="#4887bf" category_font_size="12px" category_font_weight="600" post_date_color="#3f3f3f" post_desc_line_height="2" post_desc_text_color="#9e9e9e"][/vc_column][/vc_row]
+CONTENT;
+
+vc_add_default_templates( $data );
