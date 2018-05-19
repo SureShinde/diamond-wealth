@@ -146,5 +146,5 @@ function cr_post_lower_meta() {
 		$content .= '</ul>';
 	}
 
-	echo '<div class="post_meta_wrap">'.$content.'</div>';
+	echo '<div class="post_meta_wrap lower">'.$content.'</div>';
 }

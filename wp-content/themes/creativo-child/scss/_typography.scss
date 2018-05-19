@@ -1,6 +1,11 @@
 body,h1,h2,h3,h4,h5,h6 {
   color: $body-font !important;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
+
+  a {
+    color: $body-font !important;
+  }
+
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -9,6 +14,27 @@ h1,h2,h3,h4,h5,h6 {
 
 body, p {
   font-size: 16px !important;
+}
+
+.vc_row h1 {
+  font-size: 68px !important;
+  margin-bottom: 30px !important;
+}
+
+h2 {
+
+  &.singlepost_title {
+    font-weight: normal !important;
+  }
+
+}
+
+h2, h3, h4, h5, h6 {
+  line-height: 1.2 !important;
+}
+
+h4 {
+  font-size: 20px !important;
 }
 
 .button,

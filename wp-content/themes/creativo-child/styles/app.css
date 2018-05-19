@@ -3,12 +3,27 @@
 body, h1, h2, h3, h4, h5, h6 {
   color: #666666 !important;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important; }
+  body a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: #666666 !important; }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold !important; }
 
 body, p {
   font-size: 16px !important; }
+
+.vc_row h1 {
+  font-size: 68px !important;
+  margin-bottom: 30px !important; }
+
+h2.singlepost_title {
+  font-weight: normal !important; }
+
+h2, h3, h4, h5, h6 {
+  line-height: 1.2 !important; }
+
+h4 {
+  font-size: 20px !important; }
 
 .button,
 .reading-box.cta_box_1 .button,
@@ -55,6 +70,9 @@ table {
 
 /* Main Nav
 ---------------------------------------------------------------------- */
+.header {
+  background-color: #201111 !important; }
+
 #navigation > ul > li > a {
   color: #ffffff !important;
   font-weight: 600 !important; }
@@ -120,10 +138,6 @@ table {
   color: #666666 !important;
   font-size: 16px !important; }
 
-.post_grid_desc {
-  border-bottom: 1px solid #b7b7b7;
-  margin-bottom: 15px !important; }
-
 /* Footer
 ---------------------------------------------------------------------- */
 .footer {
@@ -147,12 +161,41 @@ table {
 
 /* Blog
 ---------------------------------------------------------------------- */
-.blogpost .category_output i {
-  display: none; }
+.blogpost {
+  position: relative; }
+  .blogpost.grid_posts h3 {
+    color: #666666 !important;
+    font-size: 20px !important; }
+    .blogpost.grid_posts h3 a {
+      color: #666666 !important; }
+  .blogpost.grid_posts.columns-3 .description {
+    position: relative;
+    min-height: 270px; }
+  .blogpost.grid_posts.columns-3 .date {
+    border-top: 1px solid #b7b7b7;
+    margin-top: 15px !important;
+    padding-top: 15px !important;
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    width: calc(100% - 60px); }
+  .blogpost .content_wrapper {
+    position: relative;
+    min-height: 420px; }
+  .blogpost .category_output i {
+    display: none; }
+  .blogpost .category_output a {
+    color: #d0ab67 !important;
+    font-size: 20px !important; }
 
-.blogpost .category_output a {
-  color: #d0ab67 !important;
-  font-size: 20px !important; }
+.recent_posts_container.related_posts .blogpost.grid_posts.columns-3 .description {
+  min-height: 0 !important; }
+
+.post_meta_wrap.lower {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%; }
 
 .post_meta_wrap .post_meta.lower li {
   color: #666666 !important;
@@ -882,5 +925,28 @@ form#commentform label {
 .amcharts-export-menu .export-drawing-shape.active a img {
   -webkit-filter: invert(100%);
   filter: invert(100%); }
+
+/* Print
+---------------------------------------------------------------------- */
+@media print {
+  body.page-id-1241 .vc_row,
+  body.page-id-1241 #responsive_navigation,
+  body.page-id-1241 .full_header,
+  body.page-id-1241 .row,
+  body.page-id-1241 p,
+  body.page-id-1241 .footer {
+    display: none !important; }
+  body.page-id-1241 #the-trex-score.vc_row {
+    display: block !important; }
+    body.page-id-1241 #the-trex-score.vc_row h2 {
+      text-align: left !important; }
+    body.page-id-1241 #the-trex-score.vc_row .graph h3 {
+      width: 20% !important;
+      text-align: left !important; }
+    body.page-id-1241 #the-trex-score.vc_row #chartdiv {
+      width: 100% !important; }
+    body.page-id-1241 #the-trex-score.vc_row .amcharts-chart-div svg {
+      width: 100% !important;
+      max-width: none !important; } }
 
 /*# sourceMappingURL=app.css.map */

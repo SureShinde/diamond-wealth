@@ -1,5 +1,10 @@
 /* Main Nav
 ---------------------------------------------------------------------- */
+.header {
+  background-color: $black !important;
+}
+
+
 #navigation > ul > li > a {
   color: $white !important;
   font-weight: 600 !important;
@@ -87,8 +92,8 @@
 }
 
 .post_grid_desc {
-  border-bottom: 1px solid $border-color;
-  margin-bottom: 15px !important;
+  //border-bottom: 1px solid $border-color;
+  //margin-bottom: 15px !important;
 }
 
 /* Footer
@@ -131,6 +136,45 @@
 /* Blog
 ---------------------------------------------------------------------- */
 .blogpost {
+  position: relative;
+
+  &.grid_posts {
+
+    h3 {
+      color: $body-font !important;
+      font-size: 20px !important;
+
+      a {
+        color: $body-font !important;
+      }
+
+    }
+
+  }
+
+  &.grid_posts.columns-3 {
+
+    .description {
+      position: relative;
+      min-height: 270px;
+    }
+
+    .date {
+      border-top: 1px solid $border-color;
+      margin-top: 15px !important;
+      padding-top: 15px !important;
+      position: absolute;
+      left: 30px;
+      bottom: 30px;
+      width: calc(100% - 60px);
+    }
+
+  }
+
+  .content_wrapper {
+    position: relative;
+    min-height: 420px;
+  }
 
   .category_output {
 
@@ -147,7 +191,26 @@
 
 }
 
+.recent_posts_container.related_posts .blogpost {
+
+  &.grid_posts.columns-3 {
+
+    .description {
+      min-height: 0 !important;
+    }
+
+  }
+
+}
+
 .post_meta_wrap {
+
+  &.lower {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
 
   .post_meta.lower {
 

@@ -82,6 +82,7 @@ function wg_trex_calc( $atts, $content ) {
 			</div>
 		</form>
 		<div id="trexOut" ></div>
+		<div id="print_button">Print Your T-Rex Score</div>
 	</section>
 	<?php
 	$content = ob_get_contents();

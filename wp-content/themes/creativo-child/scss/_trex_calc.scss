@@ -652,3 +652,47 @@
   -webkit-filter: invert(100%);
   filter: invert(100%);
 }
+
+/* Print
+---------------------------------------------------------------------- */
+@media print {
+
+  //trex page
+  body.page-id-1241 {
+
+    .vc_row,
+    #responsive_navigation,
+    .full_header,
+    .row,
+    p,
+    .footer {
+      display: none !important;
+    }
+
+    #the-trex-score.vc_row {
+      display: block !important;
+      //width: 100% !important;
+
+      h2 {
+        text-align: left !important;
+      }
+
+      .graph h3 {
+        width: 20% !important;
+        text-align: left !important;
+      }
+
+      #chartdiv {
+        width: 100% !important;
+      }
+
+      .amcharts-chart-div svg {
+        width: 100% !important;
+        max-width: none !important;
+      }
+
+    }
+
+  }
+
+}
