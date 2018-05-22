@@ -92,7 +92,7 @@ table {
 .additional_icons ul {
   border: none !important; }
 
-@media only screen and (min-device-width: 831px) and (max-device-width: 880px) {
+@media only screen and (min-device-width: 831px) and (max-device-width: 1030px) {
   .extra_header_button {
     display: none !important; } }
 
