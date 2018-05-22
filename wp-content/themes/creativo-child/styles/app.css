@@ -81,6 +81,7 @@ table {
     color: #c5090e !important; }
 
 #navigation > ul > li.current-menu-item > a {
+  color: #c5090e !important;
   background-color: #201111 !important; }
 
 #branding {

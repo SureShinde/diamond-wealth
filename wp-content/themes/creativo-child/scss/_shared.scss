@@ -17,6 +17,7 @@
 }
 
 #navigation > ul > li.current-menu-item > a {
+  color: $red !important;
   background-color: $black !important;
 }
 
