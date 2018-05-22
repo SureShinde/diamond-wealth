@@ -173,9 +173,6 @@ global $data;
 					<p><input type="text" name="email" id="email" value="<?php echo esc_attr($comment_author_email); ?>" size="22" tabindex="2" style="width:50%;" />
 					<label for="email"><small><?php _e('Mail <span>(will not be published)</span>', 'Creativo') ?> <?php if ($req) _e("*", 'Creativo'); ?></small></label></p>
 				
-					<p><input type="text" name="url" id="url" value="<?php echo esc_attr($comment_author_url); ?>" size="22" tabindex="3" style="width:50%;" />
-					<label for="url"><small><?php _e('Website', 'Creativo') ?></small></label></p>
-				
 					<?php endif; ?>
 				
 					<p><textarea name="comment" id="comment" cols="58" rows="10" tabindex="4"></textarea></p>

@@ -77,6 +77,7 @@ table {
   color: #ffffff !important;
   font-weight: 600 !important; }
   #navigation > ul > li > a:hover {
+    background-color: #201111 !important;
     color: #c5090e !important; }
 
 #branding {
@@ -90,6 +91,10 @@ table {
 
 .additional_icons ul {
   border: none !important; }
+
+@media only screen and (min-device-width: 831px) and (max-device-width: 880px) {
+  .extra_header_button {
+    display: none !important; } }
 
 .extra_header_button a {
   color: #ffffff !important;
@@ -218,6 +223,19 @@ table {
 .masthead {
   height: 350px;
   margin-bottom: 60px !important; }
+
+body.single .post_meta.default {
+  border-top: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0; }
+
+body.single .post_meta li {
+  font-size: 16px !important;
+  margin-right: 20px; }
+  body.single .post_meta li i.fa-user,
+  body.single .post_meta li i.fa-clock-o {
+    display: none !important; }
 
 input[type=text], input[type=email], input[type=password], input[type=search], input[type=tel], textarea, input:focus, textarea:focus {
   color: #666666 !important; }
@@ -502,11 +520,12 @@ form#commentform label {
     padding: 0 30px; } }
 
 #print_button, #image_button {
-  background: #4a6491;
-  border: 1px solid #4a6491;
+  background: #c5090e;
+  border: 1px solid #c5090e;
   color: white;
   display: block;
   text-transform: uppercase;
+  font-weight: 600 !important;
   padding: 0.25em 1em;
   margin: 1.5em auto 0;
   max-width: 250px;

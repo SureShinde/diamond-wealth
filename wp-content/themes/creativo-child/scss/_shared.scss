@@ -10,6 +10,7 @@
   font-weight: 600 !important;
 
   &:hover {
+    background-color: $black !important;
     color: $red !important;
   }
 
@@ -28,6 +29,18 @@
 
 .additional_icons ul {
   border: none !important;
+}
+
+.extra_header_button {
+
+  @media only screen
+  and (min-device-width: 831px)
+  and (max-device-width: 880px) {
+
+    display: none !important;
+
+  }
+
 }
 
 .extra_header_button a {
@@ -243,4 +256,26 @@
 .masthead {
   height: 350px;
   margin-bottom: 60px !important;
+}
+
+body.single {
+
+  .post_meta.default {
+    border-top: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+  }
+
+  .post_meta li {
+    font-size: 16px !important;
+    margin-right: 20px;
+
+    i.fa-user,
+    i.fa-clock-o {
+      display: none !important;
+    }
+
+  }
+
 }

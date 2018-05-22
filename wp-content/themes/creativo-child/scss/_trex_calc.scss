@@ -188,11 +188,12 @@
     padding: 0 30px; } }
 
 #print_button, #image_button {
-  background: #4a6491;
-  border: 1px solid #4a6491;
+  background: $red;
+  border: 1px solid $red;
   color: white;
   display: block;
   text-transform: uppercase;
+  font-weight: 600 !important;
   padding: 0.25em 1em;
   margin: 1.5em auto 0;
   max-width: 250px;
