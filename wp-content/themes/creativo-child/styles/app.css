@@ -80,6 +80,9 @@ table {
     background-color: #201111 !important;
     color: #c5090e !important; }
 
+#navigation > ul > li.current-menu-item > a {
+  background-color: #201111 !important; }
+
 #branding {
   padding: 4px 0 0 10px !important; }
 
