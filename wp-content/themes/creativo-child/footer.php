@@ -80,7 +80,7 @@
 	        
 	    	<div class="inner">
 
-				<div class="newsletter-form">
+				<div class="newsletter-form" style="visibility: hidden">
 					<h5>Subscribe to my Newsletter</h5>
 					<?php gravity_form('Newsletter', false, false, false, '', true, 12); ?>
 				</div>
